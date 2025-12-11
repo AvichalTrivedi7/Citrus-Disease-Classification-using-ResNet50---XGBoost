@@ -1,0 +1,20 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore dataset and split folders
+Orange Dataset/
+final_runs_resnet/data_split/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large model files
+final_runs_resnet/*.h5
+final_runs_resnet/*.joblib
+
+# Ignore Jupyter or temp
+.ipynb_checkpoints/

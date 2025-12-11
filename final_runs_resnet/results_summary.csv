@@ -1,0 +1,5 @@
+epochs,cnn_test_acc,cnn_train_time_s,xgb_test_acc,xgb_train_time_s,xgb_prec_macro,xgb_rec_macro,xgb_f1_macro,cnn_path,feat_path,xgb_path
+5,0.9757914543151855,373.93,0.9739292364990689,0.73,0.9675523375995074,0.9690788049451963,0.9682567742322871,./final_runs_resnet\cnn_resnet_ep5.h5,./final_runs_resnet\featmod_resnet_ep5.h5,./final_runs_resnet\xgb_resnet_ep5.joblib
+10,0.9832402467727661,739.29,0.9832402234636871,0.49,0.978496115427303,0.9784327323162274,0.9783648845433742,./final_runs_resnet\cnn_resnet_ep10.h5,./final_runs_resnet\featmod_resnet_ep10.h5,./final_runs_resnet\xgb_resnet_ep10.joblib
+20,0.9906890392303467,1703.56,0.9925512104283054,0.36,0.9904299583911235,0.9904299583911235,0.9903846153846154,./final_runs_resnet\cnn_resnet_ep20.h5,./final_runs_resnet\featmod_resnet_ep20.h5,./final_runs_resnet\xgb_resnet_ep20.joblib
+50,0.9981378316879272,4701.93,0.9906890130353817,0.26,0.9907200229489386,0.987956541840037,0.9892638786989483,./final_runs_resnet\cnn_resnet_ep50.h5,./final_runs_resnet\featmod_resnet_ep50.h5,./final_runs_resnet\xgb_resnet_ep50.joblib
